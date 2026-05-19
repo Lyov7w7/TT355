@@ -1,0 +1,71 @@
+{
+    "open_ports": [
+        {
+            "port": 53,
+            "protocol": "TCP/UDP",
+            "status": "NONE"
+        },
+        {
+            "port": 53,
+            "protocol": "TCP/UDP",
+            "status": "LISTEN"
+        },
+        {
+            "port": 53,
+            "protocol": "TCP/UDP",
+            "status": "NONE"
+        },
+        {
+            "port": 40738,
+            "protocol": "TCP/UDP",
+            "status": "TIME_WAIT"
+        },
+        {
+            "port": 323,
+            "protocol": "TCP/UDP",
+            "status": "NONE"
+        },
+        {
+            "port": 53,
+            "protocol": "TCP/UDP",
+            "status": "LISTEN"
+        },
+        {
+            "port": 323,
+            "protocol": "TCP/UDP",
+            "status": "NONE"
+        },
+        {
+            "port": 53,
+            "protocol": "TCP/UDP",
+            "status": "LISTEN"
+        },
+        {
+            "port": 53,
+            "protocol": "TCP/UDP",
+            "status": "NONE"
+        }
+    ],
+    "heavy_ports": [
+        [
+            53,
+            30
+        ],
+        [
+            323,
+            10
+        ],
+        [
+            40738,
+            5
+        ]
+    ],
+    "rules": {
+        "blocked_in": [
+            80
+        ],
+        "blocked_out": [
+            22
+        ]
+    }
+}
